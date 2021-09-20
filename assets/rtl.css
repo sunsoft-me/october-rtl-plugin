@@ -17,8 +17,26 @@
 }
 
 [lang="ar"] .layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item {
-    margin-left: 15px;
+    margin-left: 0;
     margin-right: unset;
+}
+
+[lang="ar"] .layout-mainmenu .navbar ul.mainmenu-items[data-main-menu].mainmenu-extras>li.mainmenu-item.mainmenu-preview .nav-icon {
+    right: 10px;
+}
+
+[lang="ar"] .layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item.mainmenu-preview>a {
+    padding-left: unset;
+    padding-right: 10px;
+}
+
+[lang="ar"] .layout-mainmenu .navbar {
+    padding: 0 0 0 20px;
+}
+
+[lang="ar"] .control-toolbar .toolbar-item.last, .control-toolbar .toolbar-item:last-child {
+    padding-right: 0;
+    padding-left: unset;
 }
 
 [lang="ar"] .component-backend-treeview ul li.mode-tree>ul, [lang="ar"] .component-backend-treeview ul li.root-node>ul {
@@ -153,4 +171,54 @@
 [lang="ar"] .component-backend-treeview ul li>.item-label-outer-container.section-label .node-label {
     padding-right: 19px;
     padding-left: unset;
+}
+
+[lang="ar"] .control-pagination .page-last:before {
+    content: "\f100";
+}
+
+[lang="ar"] .control-pagination .page-first:before {
+    content: "\f101";
+}
+
+[lang="ar"] .control-pagination .page-back:before {
+    content: "\f105";
+}
+
+[lang="ar"] .control-pagination .page-next:before {
+    content: "\f104";
+}
+
+[lang="ar"] ul.mainmenu-items.mainmenu-submenu-dropdown>li.mainmenu-item .nav-icon {
+    right: 17px;
+    left: unset;
+}
+
+[lang="ar"] ul.mainmenu-items.mainmenu-submenu-dropdown>li.mainmenu-item a {
+    padding: 7px 47px 7px 17px;
+}
+
+[lang="ar"] nav.layout-sidenav ul>li.mainmenu-item>a .nav-icon {
+    right: 25px;
+    left: unset;
+}
+
+[lang="ar"] nav.layout-sidenav ul>li.mainmenu-item>a {
+    padding: 7px 58px 7px 10px;
+}
+
+[lang="ar"] nav.layout-sidenav ul>li.mainmenu-item.active>a .nav-icon {
+    right: 22px;
+    left: unset;
+}
+
+[lang="ar"] nav.layout-sidenav ul>li.mainmenu-item.active>a {
+    padding-right: 55px;
+    padding-left: unset;
+}
+
+[lang="ar"] .switch-field .field-switch {
+    padding-right: 75px;
+    padding-left: unset;
+    float: right;
 }
