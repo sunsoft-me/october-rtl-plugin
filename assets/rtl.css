@@ -1,3 +1,156 @@
 [lang="ar"] body, [lang="ar"] html {
     direction: rtl;
+    text-align: right;
+}
+
+[lang="ar"] .control-status-list>ul li .status-label {
+    float: left;
+}
+
+[lang="ar"] .layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item .nav-icon {
+    right: 0;
+    left: unset;
+}
+
+[lang="ar"] .layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item>a {
+    padding: 15px 38px 0 10px;
+}
+
+[lang="ar"] .layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item {
+    margin-left: 15px;
+    margin-right: unset;
+}
+
+[lang="ar"] .component-backend-treeview ul li.mode-tree>ul, [lang="ar"] .component-backend-treeview ul li.root-node>ul {
+    padding-right: 19px;
+    padding-left: unset;
+}
+
+[lang="ar"] .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>a, [lang="ar"] .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>button {
+    text-align: right;
+}
+
+[lang="ar"] [class*=" oc-icon-"]:before, [lang="ar"] [class^=oc-icon-]:before {
+    margin-left: 8px;
+    margin-right: unset;
+}
+
+[lang="ar"] .control-toolbar .toolbar-item .btn, [lang="ar"] .control-toolbar .toolbar-item .btn-group, [lang="ar"] .control-toolbar .toolbar-item .dropdown {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+[lang="ar"] .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+[lang="ar"] .btn-group>.btn:last-child:not(:first-child), [lang="ar"] .btn-group>.dropdown-toggle:not(:first-child) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+[lang="ar"] .select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-align: right;
+}
+
+[lang="ar"] .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: unset;
+    left: 13px;
+}
+
+[lang="ar"] .form-group.span-left {
+    float: right;
+    clear: right;
+}
+
+[lang="ar"] .form-group.span-right {
+    float: left;
+    clear: left;
+}
+
+[lang="ar"] .dropup .dropdown-menu {
+    right: 0;
+    width: 100px;
+}
+
+[lang="ar"] .modal-header button.close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+[lagn="ar"] .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>a, [lang="ar"] .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>button {
+    text-align: right !important;
+}
+
+[lang="ar"] .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>a i.submenu-indicator, [lang="ar"] .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>button i.submenu-indicator {
+    right: auto !important;
+    left: 15px !important;
+}
+
+[lang="ar"] .pull-right {
+    float: left !important;
+}
+
+[lang="ar"] .pull-left {
+    float: right !important;
+}
+
+[lang="ar"] .sidenav-tree ul.top-level>li>ul li a i {
+    right: 11px;
+    left: unset;
+}
+
+[lang="ar"] .sidenav-tree ul.top-level>li>ul li a {
+    padding: 10px 44px 15px 5px;
+}
+
+[lang="ar"] body.sidenav-tree-expanded .sidenav-tree ul.top-level>li>ul>li a {
+    padding-right: 44px;
+}
+
+[lang="ar"] .sidenav-tree ul.top-level>li>div.group h3:before {
+    right: 10px;
+}
+
+[lang="ar"] .sidenav-tree ul.top-level>li>div.group h3 {
+    padding: 7px 25px 8px 15px;
+}
+
+[lang="ar"] .system-home-link i {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+[lang="ar"] .system-home-link i:before {
+    transform: scaleX(-1);
+}
+
+[lang="ar"] .backend-icon-background-pseudo:before {
+    transform: scaleX(-1);
+}
+
+[lang="ar"] .component-backend-treeview ul li .node-toggle-control {
+    right: 0;
+    left: unset;
+}
+
+[lagn="ar"] .component-backend-treeview ul li.mode-tree>.item-label-outer-container>.item-label-container .node-label, [lang="ar"] .component-backend-treeview ul li.root-node>.item-label-outer-container>.item-label-container .node-label {
+    padding-right: 19px;
+    padding-left: unset;
+}
+
+[lang="ar"] .component-backend-treeview ul li>.item-label-outer-container>.item-label-container.has-menu .node-menu-trigger {
+    left: 0;
+    right: unset;
+}
+
+[lang="ar"] .component-backend-treeview ul li>.item-label-outer-container.section-label .node-label {
+    padding-right: 19px;
+    padding-left: unset;
 }
