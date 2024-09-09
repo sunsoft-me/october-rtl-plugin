@@ -1,0 +1,224 @@
+body, html {
+	direction: rtl;
+	text-align: right;
+}
+
+.control-status-list>ul li .status-label {
+	float: left;
+}
+
+.layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item .nav-icon {
+	right: 0;
+	left: unset;
+}
+
+.layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item>a {
+	padding: 15px 38px 0 10px;
+}
+
+.layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item {
+	margin-left: 0;
+	margin-right: unset;
+}
+
+.layout-mainmenu .navbar ul.mainmenu-items[data-main-menu].mainmenu-extras>li.mainmenu-item.mainmenu-preview .nav-icon {
+	right: 10px;
+}
+
+.layout-mainmenu .navbar ul.mainmenu-items[data-main-menu]>li.mainmenu-item.mainmenu-preview>a {
+	padding-left: unset;
+	padding-right: 10px;
+}
+
+.layout-mainmenu .navbar {
+	padding: 0 0 0 20px;
+}
+
+.control-toolbar .toolbar-item.last, .control-toolbar .toolbar-item:last-child {
+	padding-right: 0;
+	padding-left: unset;
+}
+
+.component-backend-treeview ul li.mode-tree>ul, .component-backend-treeview ul li.root-node>ul {
+	padding-right: 19px;
+	padding-left: unset;
+}
+
+.dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>a, .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>button {
+	text-align: right;
+}
+
+[class*=" oc-icon-"]:before, [class^=oc-icon-]:before {
+	margin-left: 8px;
+	margin-right: unset;
+}
+
+.control-toolbar .toolbar-item .btn, .control-toolbar .toolbar-item .btn-group, .control-toolbar .toolbar-item .dropdown {
+	margin-left: 10px;
+	margin-right: unset;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	text-align: right;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	right: unset;
+	left: 13px;
+}
+
+.form-group.span-left {
+	float: right;
+	clear: right;
+}
+
+.form-group.span-right {
+	float: left;
+	clear: left;
+}
+
+.dropup .dropdown-menu {
+	right: 0;
+	width: 100px;
+}
+
+.modal-header button.close {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+[lagn="ar"] .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>a, .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>button {
+	text-align: right !important;
+}
+
+.dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>a i.submenu-indicator, .dropdown-menu.backend-dropdownmenu .dropdown-container>ul>li>button i.submenu-indicator {
+	right: auto !important;
+	left: 15px !important;
+}
+
+.pull-right {
+	float: left !important;
+}
+
+.pull-left {
+	float: right !important;
+}
+
+.sidenav-tree ul.top-level>li>ul li a i {
+	right: 11px;
+	left: unset;
+}
+
+.sidenav-tree ul.top-level>li>ul li a {
+	padding: 10px 44px 15px 5px;
+}
+
+body.sidenav-tree-expanded .sidenav-tree ul.top-level>li>ul>li a {
+	padding-right: 44px;
+}
+
+.sidenav-tree ul.top-level>li>div.group h3:before {
+	right: 10px;
+}
+
+.sidenav-tree ul.top-level>li>div.group h3 {
+	padding: 7px 25px 8px 15px;
+}
+
+.system-home-link i {
+	margin-left: 10px;
+	margin-right: unset;
+}
+
+.system-home-link i:before {
+	transform: scaleX(-1);
+}
+
+.backend-icon-background-pseudo:before {
+	transform: scaleX(-1);
+}
+
+.component-backend-treeview ul li .node-toggle-control {
+	right: 0;
+	left: unset;
+}
+
+[lagn="ar"] .component-backend-treeview ul li.mode-tree>.item-label-outer-container>.item-label-container .node-label, .component-backend-treeview ul li.root-node>.item-label-outer-container>.item-label-container .node-label {
+	padding-right: 19px;
+	padding-left: unset;
+}
+
+.component-backend-treeview ul li>.item-label-outer-container>.item-label-container.has-menu .node-menu-trigger {
+	left: 0;
+	right: unset;
+}
+
+.component-backend-treeview ul li>.item-label-outer-container.section-label .node-label {
+	padding-right: 19px;
+	padding-left: unset;
+}
+
+.control-pagination .page-last:before {
+	content: "\f100";
+}
+
+.control-pagination .page-first:before {
+	content: "\f101";
+}
+
+.control-pagination .page-back:before {
+	content: "\f105";
+}
+
+.control-pagination .page-next:before {
+	content: "\f104";
+}
+
+ul.mainmenu-items.mainmenu-submenu-dropdown>li.mainmenu-item .nav-icon {
+	right: 17px;
+	left: unset;
+}
+
+ul.mainmenu-items.mainmenu-submenu-dropdown>li.mainmenu-item a {
+	padding: 7px 47px 7px 17px;
+}
+
+nav.layout-sidenav ul>li.mainmenu-item>a .nav-icon {
+	right: 25px;
+	left: unset;
+}
+
+nav.layout-sidenav ul>li.mainmenu-item>a {
+	padding: 7px 58px 7px 10px;
+}
+
+nav.layout-sidenav ul>li.mainmenu-item.active>a .nav-icon {
+	right: 22px;
+	left: unset;
+}
+
+nav.layout-sidenav ul>li.mainmenu-item.active>a {
+	padding-right: 55px;
+	padding-left: unset;
+}
+
+.switch-field .field-switch {
+	padding-right: 75px;
+	padding-left: unset;
+	float: right;
+}
